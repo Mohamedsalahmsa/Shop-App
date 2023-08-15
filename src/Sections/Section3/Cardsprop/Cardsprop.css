@@ -1,0 +1,43 @@
+.cards .card {
+    background-color: #fff;
+    width: 30%;
+    margin-bottom: 5%;
+}
+.cards .card img {
+    width: 100%;
+   border-top-right-radius: 5px;
+   border-top-left-radius: 5px;
+}
+.cards .card .icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.cards .card .icons .ico span{
+    font-size: 18px;
+}
+.cards .card .icons p {
+    color: gray;
+    font-size: 18px;
+    
+}
+
+.cards .card .textss {
+    padding: 10px;
+}
+.cards .card .textss p {
+    font-size: 20px;
+    font-weight: 100;
+    margin-right: 10px;
+}
+.cards .card .textss span {
+    color: gray;
+}
+
+@media screen and (max-width: 880px) {
+    .cards .card {
+        width: 80%;
+        margin-bottom: 9%;
+       
+    }
+}

@@ -1,0 +1,94 @@
+.Sec1Shop {
+    display: flex;
+    align-items: center;
+    margin-top: -60px;
+}
+
+.Sec1Shop .cards4 {
+    width: 100%;
+    margin-left: 20%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.Sec1Shop .cards4 .card5 {
+    width: 22%;
+    margin-right: 25px;
+    margin-bottom: 17px;
+    background-color: #fff;
+    box-shadow: 0px 9px 17px 1px rgba(0,0,0,0.2);
+}
+
+.Sec1Shop .cards4 img {
+    width: 100%;
+}
+.Sec1Shop .cards4 .card5 .text5{
+    padding: 10px;
+}
+.Sec1Shop .cards4 .card5 .text5 .size{
+    font-weight: 200;
+}
+.Sec1Shop .cards4 .card5 .text5 .title{
+   font-size: 20px;
+}
+.Sec1Shop .cards4 .card5 .fot {
+    padding: 10px;
+    text-align: center;
+}
+.Sec1Shop .cards4 .card5 .fot span {
+    font-size: 20px;
+}
+.Sec1Shop .cards4 .card5 .fot p {
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+@media screen and (max-width: 880px) {
+    .Sec1Shop .cards4 {
+        flex-direction: column;
+        margin-left: 0%;
+        justify-content: center;
+        align-items: center;
+    }
+    .Sec1Shop .cards4 .card5 {
+        width: 70%;
+    }
+    .Sec1Shop {
+        margin-top: 250px;
+    }
+
+
+   
+
+   
+    @media screen and (max-width: 880px){
+        .nav1 {
+            margin-top: 0px;
+            margin-left: -20%;
+            width: 100%;
+            display: flex !important;
+            justify-content: start;
+            flex-direction: column;
+            align-items: start;
+        }
+        .nav1 ul li {
+            display: inline-block;
+            margin-right: 30px;
+        } 
+        .inputs1 {
+            margin-left: 30px;
+            margin-bottom: 40px;
+        }
+        .nav1 ul li h2 {
+            font-size: 20px;
+            cursor: pointer;
+            transition: 0.5s;
+            -webkit-transition: 0.5s;
+            -moz-transition: 0.5s;
+            -ms-transition: 0.5s;
+            -o-transition: 0.5s;
+        }
+        .nav1 ul li h2:hover {
+            color: #59ab6e;
+        }
+    }
+}

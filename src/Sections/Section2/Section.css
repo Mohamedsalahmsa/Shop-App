@@ -1,0 +1,40 @@
+.textDiv h2 {
+    font-size: 50px;
+    font-weight: 100 !important;
+}
+
+.textDiv p {
+    color: #3a3e41;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.imageDiv {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 880px){
+    .textDiv h2 {
+        font-size: 30px;
+    }
+    .textDiv p {
+        font-size: 14px;
+        margin-right: 12px;
+        margin-left: 12px;
+    }
+    .imageDiv {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .textDiv h2 {
+        font-size: 20px !important;
+    }
+    .textDiv p {
+        font-size: 12px !important;
+    }
+}

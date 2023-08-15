@@ -1,0 +1,183 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    /* box-shadow: 2px 9px 15px -6px rgba(0,0,0,0.2) */
+}
+.container .logo {
+    margin-left: 5%;
+}
+.container .logo img {
+    width: 60%;
+    cursor: pointer;
+}
+.container nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-right: 40px;
+}
+.container nav ul li {
+    display: inline-block;
+    margin: 20px;
+}
+.container nav ul li a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.788);
+    font-size: 25px;
+    font-weight: 300;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.container nav ul li a:hover {
+    color: #59ab6e;
+}
+
+.link {
+    margin-left: 30px;
+}
+.menu {
+    display: none;
+}
+.Xdiv {
+    display: none;
+}
+@media screen and (max-width: 1199px) {
+    .mobileContainer {
+        background-color: rgba(0, 0, 0, 0.9);
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        position: absolute;
+        top: 0;
+        z-index: 999;
+    }
+
+    .logos img {
+        width: 20%;
+        margin-left: 40px;
+        margin-top: 13px;
+    }
+    .mobileContainer nav ul{
+        list-style: none;
+        margin-left: -17px;
+    }
+    .mobileContainer nav ul li {
+        margin-bottom: 10px;
+    }
+    .mobileContainer nav ul li a{
+        text-decoration: none;
+        color: #cfd6e1;
+        font-weight: 600;
+        transition: 0.5s;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s;
+}
+    .mobileContainer nav ul li a:hover {
+        color: #59ab6e;
+    }
+    .mobileContainer nav ul .lis {
+        display: flex;
+    }
+    .mobileContainer nav ul .iconSearch {
+        margin-left: 29px;
+    }
+    .mobileContainer nav ul .iconSearch span {
+        cursor: pointer;
+        background-color: #cfd6e1;
+        padding: 4px;
+        text-align: center;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    .mobileContainer nav ul .iconSearch span a {
+        color: black;
+        transition: 0.5s;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s;
+}
+    .mobileContainer nav ul .iconSearch span a:hover{
+        color: #59ab6e;
+    }
+    .mobileContainer nav ul .iconSearch input {
+        padding: 2px;
+        padding-left: 7px;
+        color: #cfd6e1;
+        background-color: transparent;
+        border: 1px solid #cfd6e1;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        transition: 0.5s;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s;
+}
+    .mobileContainer nav ul .iconSearch input:focus{
+        height: 28px;
+    }
+    .Xdiv{
+        color: #fff;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        margin-right: 34px;
+        margin-top: 20px;
+        font-weight: 900;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .container nav {
+        display: none;
+    }
+    .menu {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        margin-right: 9%;
+        margin-top: 40px;
+        font-size: 23px;
+        cursor: pointer;
+    }
+
+    .container .logo img {
+        width: 60%;
+        margin-top: -68px;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .mobileContainer nav ul .iconSearch input {
+        display: none;
+    }
+
+    .mobileContainer nav ul .iconSearch {
+        margin-left: 0px;
+    }
+    .mobileContainer nav ul .iconSearch span {
+        background-color: transparent;
+    }
+    .mobileContainer nav ul .iconSearch span a {
+        color: #cfd6e1;
+        transition: 0.5s;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s;
+}
+}

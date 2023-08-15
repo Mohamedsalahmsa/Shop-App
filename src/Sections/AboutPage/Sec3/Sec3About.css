@@ -1,0 +1,70 @@
+.Sec3 {
+    background-color: #e9eef5;
+    height: 67vh;
+}
+.Sec3Text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.Sec3Text h2 {
+    font-weight: 100;
+    color: #212934;
+    margin-top: 4%;
+    font-size: 45px;
+}
+
+.Sec3Text p {
+    width: 40%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 100;
+}
+.imCo {
+    display: flex;
+    margin-left: 30%;
+}
+.wi {
+    width: 9%;
+    margin-right: 10%;
+    filter: grayscale(100%);
+    cursor: pointer;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.wi:hover {
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+}
+
+
+.sliderContainerr {
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+
+@media screen and (max-width: 880px) {
+    .Sec3Text p {
+        width: 90%;
+    } 
+    .wi {
+        width: 13%;
+    }
+    .imCo {
+        margin-left: 16%;
+    }
+    .sliderContainerr {
+        margin-top: 10%;
+    }
+    .Sec3 {
+        height: 50vh;
+    }
+}

@@ -1,0 +1,48 @@
+.sideCategory {
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+ul {
+    list-style: none;
+}
+
+.sideCategory nav li {
+    list-style: none;
+    cursor: pointer;
+}
+
+.sideCategory nav li h2 {
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+.sideCategory nav li h4 {
+    font-weight: 400;
+    margin-top: 5px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.sideCategory nav li h4:hover {
+    color: #59ab6e;
+}
+.sideCategory nav li ul li {
+    font-weight: 200;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    font-size: 20px;
+}
+.sideCategory nav li ul li:hover {
+    color: #59ab6e;
+}
+
+@media screen and (max-width: 880px) {
+    .sideCategory nav li h2 {
+        font-size: 40px;
+    }
+}

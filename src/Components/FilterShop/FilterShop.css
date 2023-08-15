@@ -1,0 +1,31 @@
+.nav {
+    margin-top: -10px;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 250%;
+}
+.nav ul li {
+    display: inline-block;  
+    margin-right: 20px;
+}
+.nav ul li h2 {
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.nav ul li h2:hover {
+    color: #59ab6e;
+}
+
+@media screen and (max-width: 880px){
+    .filterShopContainer {
+        display: none;
+    }
+}
+

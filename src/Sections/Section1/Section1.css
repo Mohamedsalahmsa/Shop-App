@@ -1,0 +1,21 @@
+.section1 {
+    width: 100%;
+    background-color: #efefef;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 999px) {
+    .section1 {
+        height: 110vh;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .section1{
+        margin-top: -220px !important;
+    }
+}

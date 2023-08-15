@@ -1,0 +1,189 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.footer  {
+    display: flex;
+    justify-content: space-around;
+    background-color: #212934;
+}
+
+.footer .ZayShop h2 {
+    color: #59ab6e;
+    font-weight: 600;
+}
+.footer .ZayShop hr {
+    color: gray;
+}
+
+.footer .ZayShop .textContactt p {
+    color: #cfd6e1;
+    font-weight: 200;
+    font-size: 17px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    cursor: pointer;
+}
+.footer .ZayShop .textContactt p:hover {
+    color: #59ab6e;
+}
+.footer .ZayShop .textContactt p span {
+    margin-right: 10px;
+    font-weight: 600;
+}
+.footer .ZayShop {
+    margin-top: 5%;
+}
+
+/* -------------------------------------- */
+
+.footer .Text1 h2{
+    color: #cfd6e1;
+}
+
+.footer .Text1 hr {
+    color: gray;
+}
+
+.footer .Text1 ul {
+    list-style: none;
+}
+.footer .Text1 ul li{
+    color: #cfd6e1;
+    line-height: 40px;
+    margin-left: -25px;
+    cursor: pointer;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.footer .Text1 ul li:hover {
+    color: #59ab6e;
+}
+.footer .Text1 {
+    margin-top: 5%;
+}
+
+.hr {
+    border: 1px solid rgba(128, 128, 128, 0.221);
+    width: 150%;
+}
+
+.lastIcon {
+    background-color: #212934;
+    margin-top: -17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.containerLatest {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    gap: 70px;
+}
+.lastIcon .iconss span{
+    margin-right: 50px;
+    color: #cfd6e1;
+    border: 1px solid #cfd6e1;
+    border-radius: 50%;
+    padding: 10px;
+    text-align: center;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    cursor: pointer;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.lastIcon .iconss span:hover {
+    background-color: #cfd6e1 ;
+    color: #212934;
+}
+
+.input span button {
+    color: #cfd6e1;
+    background-color: #59ab6e;
+    border: none;
+    padding: 6px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-right: 2px;
+}
+.input input  {
+    padding: 5px;
+    background-color: transparent;
+    color: #cfd6e1;
+    border: 1px solid  #cfd6e1;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.input input:focus {
+    border: 1px solid  rgba(14, 14, 138, 0.753);
+    height: 30px;
+    margin-right: 3px;
+}
+hr {
+    color: #cfd6e1;
+}
+
+@media screen and (max-width: 1000px) {
+    .footer  {
+        flex-direction: column;
+    }
+    .ZayShop h2{
+        margin-left: 10px;
+    }
+    .ZayShop p{
+        margin-left: 10px;
+    }
+
+    .footer .Text1 h2 {
+        margin-left: 10px;
+    }
+    .footer .Text1 ul {
+        margin-left: 10px;
+    }
+    .containerLatest {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .lastIcon {    
+        margin-top: -37px;
+    }
+    .lastIcon .iconss span {
+        margin-right:30px;
+    }
+    .hr {
+        border: 1px solid rgba(128, 128, 128, 0.221);
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+         .lastIcon .iconss span{
+            margin-right: 15px !important;
+         }
+
+        .input input  {
+            width: 65% !important;
+        }
+}

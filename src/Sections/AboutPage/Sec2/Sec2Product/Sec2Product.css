@@ -1,0 +1,25 @@
+.Sec2 .Concard2 .card2{
+    color: #212934;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 9px 17px 1px rgba(0,0,0,0.2);
+    margin-right: 25px;
+    margin-top: 36px;
+}
+.Sec2 .Concard2 .card2:hover {
+    background-color: #212934;
+    color: #fff;
+}
+.Sec2 .Concard2 .card2 p {
+    font-size: 22px;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.Sec2 .Concard2 .card2 .iconMd {
+    font-size: 60px;
+    color: #69bb7e;
+}
+

@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container-contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #212934;
+    font-weight: 500;
+}
+
+.container-contact .contact {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.container-contact .contact p {
+    margin-right: 20px;
+    color: #cfd6e1;
+    font-size: 15px;
+    margin-top: 3%;
+}
+
+.container-contact .contact span {
+    margin-right: 15px;
+    font-size: 15px;
+}
+
+.container-contact .soctial {
+    display: flex;
+    width: 10%;
+    justify-content: space-between;
+    margin-right: 30px;
+    margin-top: -7px;
+}
+.container-contact .soctial span {
+    font-size: 14px;
+    color: #cfd6e1;
+    cursor: pointer;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.container-contact .soctial span:hover {
+    color: #59ab6e;
+}
+
+@media screen and (max-width: 880px) {
+    .container-contact .contact {
+        margin-left: 40px;
+        
+    }
+    
+    .container-contact .contact p {
+        margin-right: 13px;
+        color: #cfd6e1;
+        font-size: 13px;
+
+    }
+    .container-contact .soctial span  {
+        margin-right: 10px;
+    }
+    .container-contact  {
+        margin-left: -35px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .container-contact{
+        display: none;
+        
+    }
+}

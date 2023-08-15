@@ -1,0 +1,39 @@
+.Sec1About .imageTo img{
+    width: 150%;
+    margin-left: -130px;
+}
+
+.Sec1About {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #59ab6e;
+    height: 85vh;
+}
+
+.Sec1About .Txt {
+    margin-left: 60px;
+    color: #fff;
+}
+.Sec1About .Txt h2 {
+    font-size: 40px;
+    font-family: 600;
+}
+.Sec1About .Txt p {
+    width: 70%;
+}
+
+@media screen and (max-width: 880px) {
+    .Sec1About {
+        height: 150vh;
+        flex-direction: column;
+    }
+    .Sec1About .imageTo img{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .Sec1About .Txt {
+        margin-left: 0px;
+        margin-left: 30px;
+    }    
+}

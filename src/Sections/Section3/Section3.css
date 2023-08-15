@@ -1,0 +1,42 @@
+.container2{
+    background-color: #e9eef5;
+    margin-top: 5%;
+}
+
+.textDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+}
+.textDiv p {
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media screen and (max-width: 880px) {
+    .cards {
+        flex-direction: column;
+    }
+    .textDiv h2  {
+        font-size: 37px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .textDiv p{
+        width: 110% !important;
+        font-size: 11px !important;
+    }
+    .textDiv h2  {
+        font-size: 36px !important;
+    }
+} 
